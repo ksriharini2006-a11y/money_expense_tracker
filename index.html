@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoneyWise - Smart Expense Tracker</title>
+    <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+    
+    <div class="hero-section">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <div class="logo">💰 MoneyWise</div>
+            <h1 class="hero-title">Track Your Expenses.<br>Build Your Future.</h1>
+            <p class="hero-subtitle">Take control of your finances with smart tracking and insightful analytics</p>
+            
+            <div class="quote-box">
+                <p class="quote">"A penny saved is a penny earned"</p>
+                <p class="quote-author">- Benjamin Franklin</p>
+            </div>
+
+            <button class="cta-button" onclick="goToDashboard()">
+                🚀 Get Started
+            </button>
+
+           
+        </div>
+    </div>
+
+    <section class="features-section">
+        <h2>Why Choose MoneyWise?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon-large">💰</div>
+                <h3>Easy Tracking</h3>
+                <p>Add your income and expenses in seconds. Never lose track of where your money goes.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon-large">📈</div>
+                <h3>Visual Reports</h3>
+                <p>See your spending patterns with beautiful charts and detailed category breakdowns.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon-large">🎯</div>
+                <h3>Smart Insights</h3>
+                <p>Get actionable insights to help you save more and spend wisely.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon-large">🌙</div>
+                <h3>Dark Mode</h3>
+                <p>Easy on the eyes with beautiful dark mode support for night-time tracking.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="quotes-section">
+        <h2>Money Wisdom</h2>
+        <div class="quotes-carousel">
+            <div class="quote-card active">
+                <p class="carousel-quote">"Do not save what is left after spending, but spend what is left after saving."</p>
+                <p class="carousel-author">- Warren Buffett</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="canvas-section">
+        <h2>✨ Live Spending Flow</h2>
+        <p class="canvas-subtitle">Watch how smart tracking helps your money grow</p>
+        <canvas id="flowCanvas"></canvas>
+    </section>
+
+    <footer class="landing-footer">
+        <p>💻 Personal Finance Tracker</p>
+        
+    </footer>
+
+    <script src="landing.js"></script>
+</body>
+</html>
